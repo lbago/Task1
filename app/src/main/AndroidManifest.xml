@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="androidlab.epam.com.task1">
-    <uses-sdk android:targetSdkVersion="22"/>
     <uses-permission android:name="android.permission.INTERNET" /> //доступ в интернет
     <uses-permission android:name="android.permission.CAMERA" /> // доступ к камере, возможность делать фото и видео
     <uses-permission android:name="android.permission.RECORD_AUDIO" /> // доступ к микрофону
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" /> //доступ к карте, читать файлы пользователя
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> //доступ к карте, записывать файлы пользователя
+    
 
     <application
         android:allowBackup="true"
