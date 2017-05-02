@@ -7,7 +7,7 @@ android {
     defaultConfig {
         applicationId "androidlab.epam.com.task1"
         minSdkVersion 19
-        targetSdkVersion 22
+        targetSdkVersion 22 //изменить на 23 для второй компиляции
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
